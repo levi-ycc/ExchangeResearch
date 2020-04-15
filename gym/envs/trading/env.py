@@ -3,9 +3,9 @@ from gym import spaces
 from gym.utils import seeding
 import pandas as pd
 import numpy as np
-from lib.utils import FeatureEngineer
-from lib.utils import BackTest, mid_price
-from lib.performance import sharpe, sortino
+from util import FeatureEngineer
+from util import BackTest, mid_price
+from util.performance import sharpe, sortino
 import pprint
 import matplotlib.pyplot as plt
 import datetime

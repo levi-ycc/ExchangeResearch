@@ -15,11 +15,11 @@ from keras.models import load_model
 
 from agent.abstract import AgentAbstract
 from wrapper import MyWrapper
-import lib.utils as utils
-import lib.model as Model
-from lib.performance import basic, max_return_drawdown, sharpe, sortino
-from lib.utils import BackTest
-from lib.config import Config
+import util as utils
+import util.model as Model
+from util.performance import basic, max_return_drawdown, sharpe, sortino
+from util import BackTest
+from util.config import Config
 
 import random
 import tensorflow as tf

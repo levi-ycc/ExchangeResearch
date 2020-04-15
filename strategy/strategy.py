@@ -1,6 +1,6 @@
 from strategy.abstract import StrategyAbstract
-from lib.performance import basic, max_return_drawdown, sharpe, sortino
-from lib.utils import mid_price
+from util.performance import basic, max_return_drawdown, sharpe, sortino
+from utils import mid_price
 import pandas as pd
 
 class Strategy(StrategyAbstract):
