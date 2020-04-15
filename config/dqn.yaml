@@ -1,0 +1,17 @@
+env:
+    env_name: Trading-v0
+    csv_list: [data/txf1.csv]
+    continuous: false
+    split_ratio: 0.8
+    seed: 123
+
+model:
+    episodes: 1
+    memory_len: 200
+    target_model_update: 1e-3
+    learning_rate: 1e-3
+    verbose: 2
+
+agent:
+    plot: False
+    start_index: 1100
